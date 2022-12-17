@@ -1,3 +1,5 @@
+# Sobre a linguagem
+
 C é uma linguagem estruturada procedural, o que significa que seus algoritmos são escritos como uma série de instruções, executadas uma a uma, permitindo o uso de estruturas semelhantes a blocos para alterar a ordem.
 
 Um programa em C executa a partir de sua main().
@@ -57,7 +59,7 @@ int main() {
 }
 ```
 
-> *Qualquer texto precedido por `//` é ignorado, formando um **comentário*.** 
+> *Qualquer texto precedido por `//` é ignorado, formando um* ***comentário***.
 
 E agora, vamos fazer algo com esses valores.
 
