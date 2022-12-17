@@ -1,3 +1,9 @@
+---
+title: Sintaxe Básica
+permalink: /c/sintaxe/
+layout: page
+---
+
 # Sobre a linguagem
 
 C é uma linguagem estruturada procedural, o que significa que seus algoritmos são escritos como uma série de instruções, executadas uma a uma, permitindo o uso de estruturas semelhantes a blocos para alterar a ordem.
@@ -14,7 +20,7 @@ int main() {
 ```
 
 Simples, não?
-Oprograma começa na linha que conter a main, e dali, executa tudo o que estiver dentro daqueles colchetes, linha por linha.
+O programa começa na linha que conter a main, e dali, executa tudo o que estiver dentro daqueles colchetes, linha por linha.
 
 ---
 
