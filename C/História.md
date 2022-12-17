@@ -1,3 +1,9 @@
+---
+title: História
+permalink: /c/historia/
+layout: page
+---
+
 A linguagem C é a precursora de quase todas as linguagens de programação modernas, inspirando seus paradigmas, modos de operação e sintaxe. 
 
 Originalmente, programas de computador eram escritos em cartões furados, e eventualmente, passaram a ser escritos como uma série de instruções sequenciais a serem executadas diretamente pelo processador, conhecida como **assembly**.
