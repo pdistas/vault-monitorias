@@ -5,6 +5,7 @@ on: [push]
 
 jobs:
   send-dispatch:
+    runs-on: ubuntu-latest
     steps:
       - name: Send Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
