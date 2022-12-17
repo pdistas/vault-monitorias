@@ -1,0 +1,14 @@
+name: update website
+run-name: send-dispatch
+
+on: [push]
+
+jobs:
+  send-dispatch:
+    steps:
+      - name: Send Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.TOKEN_DISPATCH }}
+          repository: AmeMeida/monitorias
+          event-type: submodule-push
