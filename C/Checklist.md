@@ -1,3 +1,6 @@
+---
+---
+
 - [ ] [[Sintaxe básica]]
 - [ ] Tipos primitivos
 - [ ] Estruturas
