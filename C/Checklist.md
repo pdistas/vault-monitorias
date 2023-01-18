@@ -1,7 +1,7 @@
 ---
 ---
 
-- [ ] [[Sintaxe básica]]
+- [x] [[Sintaxe básica]]
 - [ ] Tipos primitivos
 - [ ] Estruturas
 	- [ ] if/else

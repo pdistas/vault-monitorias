@@ -227,4 +227,4 @@ Insira dois números:  8 4
 A soma será:  12
 ```
 
-Dois números, separados por um espaço. O comando entendeu isso perfeitamente. Qualquer combinação de formatadores pode ser usada no scanf: %f para decimais, por exemplo, ou %c para uma única letra.
+Dois números, separados por um espaço. O comando entendeu isso perfeitamente. Qualquer combinação de formatadores pode ser usada no scanf: `%f` para decimais, por exemplo, ou `%c` para uma única letra.
