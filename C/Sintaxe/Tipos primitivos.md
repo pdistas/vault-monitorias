@@ -26,7 +26,7 @@ Além dos tipos primitivos principais, alguns outros são mais específicos e ú
 - Maior que um int
 - Placeholder: `%ld`
 
-`double`
+#### `double`
 - Armazena números racionais
 - Maior que um float
 - Chamado de "ponto flutuante de dupla precisão"

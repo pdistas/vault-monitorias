@@ -1,4 +1,4 @@
-# O que são estruturas de controle?
+ # O que são estruturas de controle?
 C é conhecido por ser uma linguagem declarativa, onde o programador usa [[palavras reservadas]] para dizer ao código não só o que deve ser feito, mas quando. 
 
 > Um "escopo" diz respeito ao conteúdo presente dentro de um conjunto de chaves - `{ }` 
