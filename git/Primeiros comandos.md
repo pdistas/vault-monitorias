@@ -14,7 +14,7 @@ Vamos por partes.
 
 ### `git init`
 Esse é o primeiro comando com que você deve se familiarizar.
-Ele inicia, na pasta atual, um novo repositório git, para ser alterado e controlado usando a ferramenta. Crie uma pasta nova no seu gerenciador de tarefas, clique com o botão direito e selecione "abrir no terminal" ou similar, e execute o comando.
+Ele inicia, na pasta atual, um novo repositório git, para ser alterado e controlado usando a ferramenta. Crie uma pasta nova no seu gerenciador de tarefas, clique com o botão direito e selecione "abrir no terminal" ou "Git Bash Here", e execute o comando.
 
 Caso seu gerenciador de arquivos esteja configurado para exibir arquivos ocultos, você notará que uma nova pasta foi criada: `.git`
 Todos os arquivos referentes ao git estarão lá. 
