@@ -44,3 +44,50 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 O "Untracked files" mostra todos os arquivos *ainda* não reconhecidos pelo git. E, abaixo, a mensagem explica o que deve ser feito: o comando `git add`, seguido do nome de um arquivo ou pasta, deve ser usado para incluir os arquivos. 
 
+`git add .` é o mais usado para imediatamente incluir todos os arquivos modificados de uma pasta, entretanto, você pode informar arquivos individualmente, como `git add poema.txt`.
+
+Seus arquivos adicionados passarão para o estado `staged`, ou seja, preparados.
+O resultado do comando `git status` após um `git add .` será semelhante a:
+
+```sh
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   passeio.png
+        new file:   poema.txt
+        new file:   roleta-russa.py
+```
+
+
+
+### `git commit`
+O comando mais importante.
+A **commit** é uma versão do seu programa, uma foto do estado dele em um determinado momento.
+
+Ao adicionar arquivos e alterações com `git add .` eles estarão prontos para comporem uma nova versão do seu programa, a partir da commit.
+
+`git commit -m "Mensagem da commit"`
+
+Toda a commit deve possuir uma mensagem, colocada após o `-m` entre aspas. Normalmente, é usada para definir características daquela versão do programa (por exemplo, tela de busca de produtos, login, cadastro).
+Além disso, cada commit está ligada a um autor, definido com o comando [[config#author|config]].
+
+Comando executado: `git commit -m "Arquivos adicionados"`
+Resultado do `git status`:
+
+```sh
+On branch main
+nothing to commit, working tree clean
+```
+
+Como todos os arquivos adicionados já foram adicionados e commitados, ele te informa *working tree clean*.
+
+
+---
+
+## Fluxo de trabalho
+
+Quando os arquivos do programa forem alterados, eles deverão passar pelo ciclo `add` -> `commit` novamente.
+

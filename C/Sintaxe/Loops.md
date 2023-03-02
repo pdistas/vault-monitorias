@@ -26,7 +26,7 @@ Loops infinitos não são muito úteis.
 int numero_secreto = 20;
 int numero;
 
-while(numero != numero_secreto) {
+while (numero != numero_secreto) {
 	printf("Digite a senha:  ");
 	scanf("%d", &numero);
 }
@@ -44,7 +44,7 @@ int numero_secreto = 20;
 int tentativas = 0;
 int numero;
 
-while(numero != numero_secreto) {
+while (numero != numero_secreto) {
 	tentativas = tentativas + 1;
 	printf("Tentativa %d\n\n", tentativas);
 	
@@ -80,7 +80,7 @@ int numero_secreto = 20;
 int tentativas = 0;
 int numero;
 
-while((numero != numero_secreto) || (tentativas >= 3)) {
+while ((numero != numero_secreto) || (tentativas >= 3)) {
 	tentativas = tentativas + 1;
 	printf("Tentativa %d\n\n", tentativas);
 	
@@ -120,7 +120,7 @@ Um caso muito comum com estruturas de repetição é necessidade de realizar uma
 int i = 0;  // Este é o controle. 
 			// Pode receber qualquer nome, mas normalmente, i
 
-while(i < 5) {
+while (i < 5) {
 	printf("loop!\n");
 	i++;
 }
@@ -149,7 +149,7 @@ int quantidade_oi;
 printf("Quantas vezes você quer receber oi?  ");
 scanf("%d", &quantidade_oi);
 
-while(i < quantidade_oi) {
+while (i < quantidade_oi) {
 	printf("Oi!\n");
 }
 ```
