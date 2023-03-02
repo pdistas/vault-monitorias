@@ -8,12 +8,12 @@ Conforme foi dito na "Introdução a Git", o Git é uma **ferramenta de versiona
 
 Com a finalidade de facilitar a vida do programador e manter um controle sobre as mudanças e atualizações dos projeto é criado o Git. Através disso utiliza-se os conceitos de **repositório** e **branch**
 
-###`Sobre o repositório
+###`Sobre o repositório`
 
 O repositório nada mais é do que um diretório onde são armazenados arquivos. Nesse repositório é feito o controle do versionamento. Após fazer o cadastro de sua conta no site do Github você poderá criar seu primeiro repositório, basta clicar em **New** no canto esquerdo. Em seguida, aparecerá uma tela semelhante a essa.
 ![](img/TelaRepo.jpg)
 
-Uma observação importante a fazer é sobre a questão do **Public** e **Private**, a grande diferença entre os dois seria no acesso ao repositório. Caso você escolha deixar o repositório, todo mundo poderá clonar seu repositório e vizualizar seu código, porém, ninguém além de quem você permitir poderá de fato fazer uma mudança em seu código. Já se você escolher deixar privado será necessário criar um tolken de acesso para fazer alterações em seu respositório, e apenas quem você permitir poderá vizulizar seu repositório.
+Uma observação importante a fazer é sobre a questão do **Public** e **Private**, a grande diferença entre os dois seria no acesso ao repositório. Caso você escolha deixar o repositório público, todo mundo poderá clonar seu repositório e vizualizar seu código, porém, ninguém além de quem você permitir poderá de fato fazer uma mudança em seu código. Já se você escolher deixar privado será necessário criar um tolken de acesso para fazer alterações em seu respositório, e apenas quem você permitir poderá vizulizar seu repositório.
 
 > *O mais comum é deixar o repositório público, por mais que todo mundo consiga vizualizar seu código isso em si não é o problema, o problema seria caso conseguissem alterar seu código, mas isso não é possível. Então, para os fins do curso, não vejo em si a necessidade de criar um repositório privado, pois muitas vezes o esforço do tolken de acesso pode acabar sendo chato.*
 
