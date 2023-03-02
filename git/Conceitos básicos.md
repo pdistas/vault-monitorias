@@ -8,7 +8,7 @@ Conforme foi dito na "Introdução a Git", o Git é uma **ferramenta de versiona
 
 Com a finalidade de facilitar a vida do programador e manter um controle sobre as mudanças e atualizações dos projeto é criado o Git. Através disso utiliza-se os conceitos de **repositório** e **branch**
 
-###Sobre o repositório
+### Sobre o repositório
 
 O repositório nada mais é do que um diretório onde são armazenados arquivos. Nesse repositório é feito o controle do versionamento. Após fazer o cadastro de sua conta no site do Github você poderá criar seu primeiro repositório, basta clicar em **New** no canto esquerdo. Em seguida, aparecerá uma tela semelhante a essa.
 ![](img/TelaRepo.jpg)
