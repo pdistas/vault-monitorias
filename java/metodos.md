@@ -24,6 +24,10 @@ public class Carro {
 	public void informarModelo() {
 		System.out.println("Modelo do veículo:  " + this.modelo);
 	}
+	
+	public int anoLancamento() {
+		return this.ano + 1;
+	}
 }
 ```
 
@@ -37,12 +41,14 @@ public class Program {
 		onix.modelo = "Ônix";
 		onix.marca = "Chevrolet";
 		onix.cor = "Prata";
+		onix.ano = 2019;
 		onix.quilometragem = 20500;
 		
 		Carro hb20 = new Carro();
 		hb20.modelo = "HB20";
 		hb20.marca = "Hyundai";
 		hb20.cor = "Branco";
+		hb20.ano = 2020;
 		hb20.quilometragem = 0;
 		
 		System.out.println("Quilometragem:  " + onix.quilometragem);
@@ -53,7 +59,12 @@ public class Program {
 		System.out.println(); // só para dar um espaço extra
 
 		onix.informarModelo();
-		hb20.informarModelo();		
+		hb20.informarModelo();
+		
+		System.out.println();
+		
+		int anoOnix = onix.anoLancamento();
+		System.out.println("Ano de lançamento:  " + anoOnix);
 	}
 }
 ```
@@ -66,6 +77,8 @@ Viajando 50 quilômetros
 
 Modelo do veículo: Ônix
 Modelo do veículo: HB20
+
+Ano de lançamento:  2020
 ```
 
 Ambos os carros, como são da classe carro, compartilham dos mesmos campos e métodos. 
