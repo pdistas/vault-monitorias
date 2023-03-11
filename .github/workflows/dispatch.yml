@@ -1,7 +1,9 @@
 name: update website
 run-name: send-dispatch
 
-on: [push]
+on:
+  push:
+    branches: ["main"]
 
 jobs:
   send-dispatch:
