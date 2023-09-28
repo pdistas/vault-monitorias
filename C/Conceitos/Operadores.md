@@ -58,7 +58,6 @@ Operadores lógicos são utilizados para criar *condições*, e são capazes de 
 |       `9 > 9`        |   Falso    |
 |      `10 >= 10`      | Verdadeiro |
 |     `'a' != 'a'`     |   Falso    |
-| `"arroz" == "arroz"` | Verdadeiro |
 
 > Na linguagem C, um único símbolo de igual, como `=`, é usado para dar um valor a uma variável. Dois, como em `==`, representam o operador lógico de igualdade.
 

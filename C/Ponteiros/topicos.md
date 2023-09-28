@@ -1,0 +1,17 @@
+
+- Ponteiros
+	- Endereço de memória
+	- Pass-by-reference
+	- Exemplos
+- Vetores
+	- Conceito
+	- Uso
+	- Vetor como ponteiro
+	- Alocação dinâmica de ponteiro
+	- Parâmetro de vetor
+- Estruturas de dados
+	- Structs
+	- Ponteiros para struct
+	- Structs contendo ponteiros
+	- Manipulação de structs com funções
+		- OOP
